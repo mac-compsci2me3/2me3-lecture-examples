@@ -3,6 +3,12 @@ import java.util.ArrayList;
 
 
 class OddNumberList extends ArrayList<Integer> {
+    /**
+     * 1. No @Override keyword is needed for method overloading;
+     * 2. For method overriding (when you have the same return type, args, and method name), 
+     * the @Override keyword is optional but recommended. 
+     * It ensures that the method actually overrides a superclass method, and helps catch errors early.
+     */
     //@Override
     public boolean add(Integer number) {
         if (number % 2 == 1) {

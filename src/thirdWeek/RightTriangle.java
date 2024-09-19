@@ -5,9 +5,11 @@ public class RightTriangle extends Triangle {
 
     // Constructor for RightTriangle
     public RightTriangle(double[] sides) {
-        super(sides); // Call the constructor of the Triangle class
+        // Call the constructor of the Triangle class
+        super(sides); 
 
         // Validate if the sides form a right triangle using the Pythagorean theorem
+        // We will talk about exceptions next week
         if (!isRightTriangle()) {
             throw new IllegalArgumentException("The given sides do not form a right triangle.");
         }
@@ -21,7 +23,7 @@ public class RightTriangle extends Triangle {
                Math.abs(Math.pow(b, 2) + Math.pow(c, 2) - Math.pow(a, 2)) < eps;
     }
 
-    // Override the area method to calculate the area of a right triangle
+    // Overload the area method to calculate the area of a right triangle
     public double area() {
         return 0.5 * this.a * this.b; // Area of a right triangle: 1/2 * base * height
     }
