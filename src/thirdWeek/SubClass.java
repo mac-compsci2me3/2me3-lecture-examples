@@ -2,13 +2,19 @@ package thirdWeek;
 import thirdWeek.*;
 
 public class SubClass extends MyClass {
-    int increaseValue(){
+    
+    public int increaseValue(){
         System.out.println("in MySub's increaseValue - triple");
         value = value * 3;
         return value;
         }
 
-    // int increaseMyClassValue(){
+    /*******************************************
+     * 
+     * Alternative way for its child class to use its parent's method
+     * 
+     *******************************************/    
+    // public int increaseMyClassValue(){
     //     int v = super.increaseValue();
     //     return v;
     // }
