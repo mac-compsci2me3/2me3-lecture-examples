@@ -1,5 +1,4 @@
 package thirdWeek;
-import thirdWeek.*;
 
 public class SubClass extends MyClass {
     
@@ -14,9 +13,9 @@ public class SubClass extends MyClass {
      * Alternative way for its child class to use its parent's method
      * 
      *******************************************/    
-    // public int increaseMyClassValue(){
-    //     int v = super.increaseValue();
-    //     return v;
-    // }
+    public int increaseMyClassValue(){
+        int v = super.increaseValue();
+        return v;
+    }
     
 }

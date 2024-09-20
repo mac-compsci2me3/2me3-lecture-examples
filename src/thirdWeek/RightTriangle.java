@@ -1,5 +1,4 @@
 package thirdWeek;
-import thirdWeek.*;
 
 public class RightTriangle extends Triangle {
 

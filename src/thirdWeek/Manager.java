@@ -1,5 +1,4 @@
 package thirdWeek;
-import thirdWeek.Employee;
 
 
 public class Manager extends Employee {

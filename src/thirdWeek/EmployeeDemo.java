@@ -1,5 +1,4 @@
 package thirdWeek;
-import thirdWeek.*;
 
 public class EmployeeDemo {
     public static void main(String[] args) {
