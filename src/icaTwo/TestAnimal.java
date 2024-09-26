@@ -18,5 +18,20 @@ public class TestAnimal {
         System.out.println(pet1);  
         System.out.println(pet2);  
         
+        // // Test the Dog class
+        // Dog dog1 = new Dog("Lab", "Labrador");
+        // Dog dog2 = new Dog("Bobby", "Bernedoodle");
+        
+        // System.out.println(dog1);  
+        // System.out.println(dog2);  
+
+        // // Test the Soundable interface
+        // dog1.makeSound();  
+        // dog2.makeSound();  
+
+        // // Test the Trainable interface
+        // dog1.performTrick();  
+        // dog2.performTrick();  
+
     }
 }

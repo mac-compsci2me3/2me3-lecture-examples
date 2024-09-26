@@ -17,11 +17,10 @@ public class Animal {
 
     @Override
     public String toString() {
-        String animalDescription = "";
-        return animalDescription;
+        String bloodTypeDescription = this.bloodType.equals(BloodType.Warm) ? "warm-blooded" : "cold-blooded";
+        return "This " + bloodTypeDescription + " animal is a " + this.diet + " and " +
+                (this.vertebrate ? "a vertebrate." : "an invertebrate.");
     }
 
-    // Honestly it is totally okay to use String for bloodtype but just incase you want to see how enumerators might be used in a class
-    // by default they will be public, static final
     enum BloodType {Warm, Cold};
 }

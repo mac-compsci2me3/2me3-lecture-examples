@@ -1,18 +1,17 @@
 package icaTwo;
 
-
-public class Dog extends Pet implements Soundable{
+public class Cat extends Pet implements Soundable{
     protected String breed;
 
-    // public Dog(String name, String breed) {
+    // public Cat(String name, String breed) {
     //     super(true, "omnivore", "warm", name);
     //     this.breed = breed;
     // }
 
     @Override
     public void makeSound() {
-        System.out.println("Dog barks:"); 
-        System.out.println("Woof! Woof!");  
+        System.out.println("Cat meows:"); 
+        System.out.println("Meow!");  
     }
 
     @Override

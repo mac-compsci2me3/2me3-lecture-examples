@@ -2,8 +2,7 @@ package thirdWeek;
 
 public class TriangleDemo {
     public static void main(String[] args) {
-        double[] sides = {3, 4, 5};
-        Triangle triangle = new Triangle(sides);
+        Triangle triangle = new Triangle(3,4,5);
 
         System.out.println(triangle.toString());
         System.out.println("Perimeter: " + triangle.perimeter());

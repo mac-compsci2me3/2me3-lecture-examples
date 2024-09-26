@@ -14,6 +14,6 @@ public class Pet extends Animal {
 
     @Override
     public String toString() {
-        return "";
+        return "This pet's name is " + this.name + ". " + super.toString();
     }
 }

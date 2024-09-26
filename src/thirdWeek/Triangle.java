@@ -5,10 +5,10 @@ public class Triangle {
     protected double b;
     protected double c;
 
-    public Triangle(double[] sides) {
-        this.a = sides[0];
-        this.b = sides[1];
-        this.c = sides[2];
+    public Triangle(double side1, double side2, double side3) {
+        this.a = side1;
+        this.b = side2;
+        this.c = side3;
     }
 
     public double perimeter() {
